@@ -1,0 +1,38 @@
+
+.body { margin: 0;
+       font-family: sans-serif;
+       background: url('im/contoh-gambar.jpg');
+       color: #fff;
+     background: url('img/koi.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+    }
+.header {margin: 20px; background: #ffff; color:white; background:#c70039; height: 70px;}
+.logo {float: left;}
+.container{width: 100%; min-height: 200px;}
+
+
+.navbar {float: right;}
+
+.navbar ul{list-style: none; padding-top: 10px;}
+
+.navbar ul li{display: inline; margin: 10px;}
+
+.navbar ul li a{text-decoration: none; color:white;}
+img {max-width: 40%}
+.gambar{width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr ;}
+
+.gambar .foto img{width: 200px;}
+
+.foto{border: 1px solid; margin: 10px;}
+
+.foto a{border: 1px solid #fff; padding: 10px; color:#fff; background:#c70039; text-decoration: none;
+border-radius: 20px; cursor: pointer;}
+
+
+.footer{text-align: center;margin: 20px; background: #fff; color:r#fff; background:#c70039; height: 70px}
+.footer p{padding-top: 25px;}
+.foter a{text-decoration: none; color: #fff; }
+
+
